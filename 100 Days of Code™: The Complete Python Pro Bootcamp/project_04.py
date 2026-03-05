@@ -1,3 +1,20 @@
+"""
+Rock-Paper-Scissors Game
+------------------------
+A simple command-line implementation of the classic Rock-Paper-Scissors game.
+
+The user selects:
+0 -> Rock
+1 -> Paper
+2 -> Scissors
+
+The computer randomly selects one of the same options.
+The program then determines the winner based on the standard game rules.
+
+Author: Amir Shalli
+"""
+
+
 import random
 
 rock = '''
