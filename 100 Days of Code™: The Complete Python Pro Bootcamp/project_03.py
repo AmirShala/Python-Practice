@@ -1,3 +1,21 @@
+"""
+Treasure Island - Text Based Adventure Game
+-------------------------------------------
+This is a simple command-line adventure game written in Python.
+
+The player makes choices that determine the outcome of the game.
+Depending on the decisions taken at each stage, the player either
+wins the treasure or encounters a "Game Over" scenario.
+
+Concepts demonstrated:
+- Multi-line strings (ASCII art)
+- User input
+- String manipulation (.lower())
+- Conditional statements (if / elif / else)
+"""
+
+
+
 print(r'''
 *******************************************************************************
           |                   |                  |                     |
