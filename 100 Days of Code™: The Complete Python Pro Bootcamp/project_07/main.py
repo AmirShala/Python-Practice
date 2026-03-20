@@ -1,3 +1,38 @@
+'''
+Hangman Game – Code Documentation
+
+Overview
+
+This Python script implements a console-based version of the classic Hangman game.
+The program randomly selects a word from an external word list and challenges the user
+to guess it one letter at a time.
+
+Game Flow
+
+- The game starts by displaying a logo and initializing the number of lives.
+- A random word is selected, and a placeholder is shown using underscores.
+- The user is prompted to guess letters in a loop until they either win or lose.
+- Correct guesses reveal the letter’s position(s) in the word.
+- Incorrect guesses reduce the number of remaining lives.
+
+Features
+
+- Tracks correctly guessed letters and updates the display dynamically.
+- Prevents repeated guesses from affecting gameplay.
+- Displays remaining lives after each turn.
+- Uses ASCII art stages to visually represent progress.
+- Ends with a win or lose message, revealing the correct word if needed.
+
+Modules Used
+
+- random: for selecting a random word.
+- hangman_words: contains the list of possible words.
+- hangman_art: contains the game logo and visual stages.
+
+This project demonstrates fundamental Python concepts such as loops, conditionals,
+lists, string manipulation, and basic game logic.
+'''
+
 import random
 import hangman_words
 import hangman_art
