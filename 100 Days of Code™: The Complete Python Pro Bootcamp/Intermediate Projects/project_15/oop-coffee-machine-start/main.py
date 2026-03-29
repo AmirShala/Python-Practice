@@ -1,3 +1,11 @@
+"""
+Coffee Machine (OOP Version)
+
+A Python implementation of a coffee machine using Object-Oriented Programming.
+The system is designed with classes to manage menu items, resources, and payment processing,
+providing a more modular, scalable, and maintainable solution compared to a procedural approach.
+"""
+
 from menu import Menu
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
