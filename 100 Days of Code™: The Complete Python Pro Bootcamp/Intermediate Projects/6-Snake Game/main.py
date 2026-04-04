@@ -1,3 +1,36 @@
+"""
+Snake Game
+----------
+A classic Snake game built using Python's turtle graphics module.
+The player controls the snake using keyboard arrows to eat food,
+grow longer, and avoid collisions.
+
+Features:
+- Real-time snake movement with smooth animation
+- Keyboard controls (Up, Down, Left, Right)
+- Food spawning at random locations
+- Snake grows when eating food
+- Score tracking system
+- Game over on wall or self collision
+
+Logic:
+- The game runs in a loop updating the screen continuously
+- The snake moves forward automatically
+- When the snake eats food, it grows and the score increases
+- The game ends if the snake hits the wall or itself
+
+Technologies:
+- Python
+- turtle
+- time
+
+Structure:
+- `Snake`: Handles movement, growth, and segments
+- `Food`: Manages food position and refresh
+- `Score`: Tracks and displays the score
+"""
+
+
 from turtle import Screen
 from snake import Snake
 from food import Food
