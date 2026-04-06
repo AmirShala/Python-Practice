@@ -1,3 +1,38 @@
+"""
+Pong Game
+---------
+A classic two-player Pong game built using Python's turtle module.
+Players control paddles to bounce the ball and score points against each other.
+
+Features:
+- Two-player gameplay (keyboard controlled)
+- Ball movement with increasing speed over time
+- Collision detection with walls and paddles
+- Score tracking system
+- Ball resets after each point
+
+Controls:
+- Right paddle: Up / Down arrows
+- Left paddle: W / S keys
+
+Logic:
+- The game runs in a continuous loop updating the screen
+- The ball moves automatically and bounces off top/bottom walls
+- When the ball hits a paddle, it reverses direction and speeds up
+- If the ball passes a paddle, the opponent scores a point
+- The ball resets to the center after each score
+
+Technologies:
+- Python
+- turtle
+- time
+
+Structure:
+- `Paddle`: Controls paddle movement
+- `Ball`: Handles movement, speed, and collisions
+- `Scoreboard`: Tracks and displays player scores
+"""
+
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
