@@ -1,3 +1,36 @@
+"""
+Crossing Game (Frogger Style)
+-----------------------------
+A simple arcade-style game where the player moves upward to cross the road
+while avoiding moving cars.
+
+Features:
+- Player movement controlled by keyboard (Up arrow)
+- Continuously spawning and moving cars
+- Collision detection with cars
+- Level progression with increasing difficulty
+- Scoreboard displaying current level
+- Game over on collision
+
+Logic:
+- The game runs in a loop updating the screen
+- Cars are generated and move across the screen
+- If the player collides with a car, the game ends
+- When the player reaches the finish line, they reset position,
+  the level increases, and car speed increases
+
+Technologies:
+- Python
+- turtle
+- time
+
+Structure:
+- `Player`: Handles movement and position reset
+- `CarManager`: Manages car creation, movement, and speed
+- `Scoreboard`: Tracks level and displays game status
+"""
+
+
 import time
 from turtle import Screen
 from player import Player
